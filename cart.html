@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng của bạn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assect/css/base.css">
+    <link rel="stylesheet" href="./assect/css/grid.css">
+    <link rel="stylesheet" href="./assect/css/main.css">
+    <link rel="stylesheet" href="./assect/css/font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+<div>
+    <div class="wrapper">
+        <header class="header-cart">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">Kênh người bán</span>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">
+                            <!-- Header QR code -->
+                            <div class="header_qrcode">
+                                <img src="./assect/css/img/qr.png" alt="QR code" class="header__qrcode-img">
+                                <div class="header__qrcode-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assect/css/img/google.png" alt="" class="header__qr_code-dowloads-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assect/css/img/appstore.png" alt="" class="header__qr_code-dowloads-img">
+                                    </a>
+                                </div>
+                            </div>
+                            Vào cửa hàng trên ứng dụng
+                         </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="#" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon ti-facebook"></i>
+                            </a>
+                            <a href="#" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon ti-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon ti-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notification">
+                                <header class="header__notification-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="header__notification-list">
+                                    <li class="header__notification-item">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://cf.shopee.vn/file/50f66abc4cbbd1f54c7ce97c11c752ba_tn" alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notification-description">Mô tả mỹ phẩm Ohui chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notification-item">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://cf.shopee.vn/file/50f66abc4cbbd1f54c7ce97c11c752ba_tn" alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notification-description">Mô tả mỹ phẩm Ohui chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notification-item header__notification-item--seen">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://cf.shopee.vn/file/50f66abc4cbbd1f54c7ce97c11c752ba_tn" alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notification-description">Mô tả mỹ phẩm Ohui chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notification-item">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://cf.shopee.vn/file/50f66abc4cbbd1f54c7ce97c11c752ba_tn" alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notification-description">Mô tả mỹ phẩm Ohui chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notification-footer">
+                                    <a href="" class="header__notification-footer-btn">Xem tất cả   </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon ti-help-alt"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item-separate">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/321752320_1108499766494634_6759275169794734376_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=F4uFhr1iEeQAX-hpKfZ&_nc_ht=scontent.fsgn5-6.fna&oh=00_AfBBM6JkRjgNfJ0CkCAb-X60W0yB2F1iJaouN8bEF8U11Q&oe=64116DA2" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">2hand-store</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--seperate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <header class="header__cart-with-search">
+            <div class="grid">
+                <!-- Header with seatch -->
+                <div class="header__with-search">
+                    <div class="header__logo">
+                        <a href="./cart.html" class="header__logo-link .header__logo-link-incart">
+                            <img class="header__logo-img" src="./assect/css/img/shope.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap  header__search-input-incart">
+                            <input type="text" class="header__search-input " placeholder="Tìm trong giỏ hàng">
+
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Joden 1</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">MLB</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-selection">
+                            <span class="header__search-selection-label">Trong shop</span>
+                            <i title="Giỏ hàng của bạn"1 class="header__search-selection-icon ti-angle-down" ></i>
+                            <ul class="header__search-options">
+                                <li class="header__search-options-items header__search-options-items--active">
+                                    <span>Trong shop</span>
+                                    <i class="ti-check"></i>
+                                </li>
+                                <li class="header__search-options-items">
+                                    <span>Ngoài shop</span>
+                                    <i class="ti-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon ti-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-cart">
+            <div class="grid wide">
+                <div class="row mtopbottom-16">
+                   <div class="col l-12">
+                        <div class="container-cart__item">
+                            <img class="container-cart__free-ship-img" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/74f3e9ac01da8565c3baead996ed6e2a.png" alt="">
+                            <span>Chọn phiếu giảm giá vận chuyển miễn phí bên dưới để được giảm giá vận chuyển</span>
+                        </div> 
+                    </div>
+                </div>
+                <!-- product item -->
+                <div class="row mtopbottom-16 container-cart__product_desc">
+                    <div class="col l-12">
+                        <div class="container-cart__product">
+                            <input id="my-checkbox" onclick="changequantity()" class="container-cart__product-input" type="checkbox">
+                            <div class="container-cart__product-liked" >+ Yêu thích</div>
+                            <span class="container-cart__product-heading">2hand-store</span>
+                            <i class="container-cart__product-icon fa-solid fa-store"></i>
+                        </div>
+                    </div>
+                    <div class="col l-12">
+                        <div class="container-cart__product">
+                            <div class="container-cart__product-item">
+                                <img class="container-cart__product-item-img" src="https://th.bing.com/th/id/R.dd06650164b95de5f3f6d0854d54c233?rik=GcCWvIPjLAUsrg&pid=ImgRaw&r=0" alt="" class="container-cart__product-img">
+                                <p>Bàn phím Motospeed K40 Red - Longgem</p>
+                            </div>
+                            
+                            <div class="container-cart__product-info">
+                                <div class="container-cart__product-old-price">600.000đ</div>
+                                <div class="container-cart__product-current-price">499000</div>    
+                                <input id="orderquantity" onchange="changequantity()" class="container-cart__product-info-input" type="number" value="1" min="1" max="10"">
+                                <div class="container-cart__product-delete">Delete</div>    
+
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+                 <!-- product item -->
+                 <div class="row mtopbottom-16 container-cart__product_desc">
+                    <div class="col l-12">
+                        <div class="container-cart__product">
+                            <input id="my-checkbox1" onclick="changequantity()" class="container-cart__product-input" type="checkbox">
+                            <div class="container-cart__product-liked" >+ Yêu thích</div>
+                            <span class="container-cart__product-heading">2hand-store</span>
+                            <i class="container-cart__product-icon fa-solid fa-store"></i>
+                        </div>
+                    </div>
+                    <div class="col l-12">
+                        <div class="container-cart__product">
+                            <div class="container-cart__product-item">
+                                <img class="container-cart__product-item-img" src="https://th.bing.com/th/id/OIP.nQcjX9eUCTaeIuBJgNmKFgHaE8?pid=ImgDet&rs=1" alt="" class="container-cart__product-img">
+                                <p> Bàn phím cơ không dây giá rẻ nhất 2021 - Vì Trang Review</p>
+                            </div>
+                            
+                            <div class="container-cart__product-info">
+                                <div class="container-cart__product-old-price">600.000</div>
+                                <div class="container-cart__product-current-price">299000</div>    
+                                <input id="orderquantity1" onchange="changequantity()" class="container-cart__product-info-input" type="number" value="1" min="1" max="10">
+                                <div class="container-cart__product-delete">Delete</div>    
+
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="sticky row mtopbottom-16">
+                    <div class="col l-12">
+                        <div class="footer-cart">
+                            <div class="row">
+                                <div class="col l-3 l-o-6">
+                                    <div class="voucher">
+                                        <i class="voucher-icon fa-regular fa-note-sticky"></i>
+                                        <span class="voucher-name">Platform Voucher</span>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="voucher">
+                                        <span class="voucher-entercode">Select Or Enter Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l-7">
+                                    <div class="pay">
+                                        <input checked="" type="checkbox" class="pay-item pay-input">
+                                        <span class="pay-item pay-select">Select All</span>
+                                        <span class="pay-item pay-select">Delete</span>
+                                        <span class="pay-item pay-select">Remove inactive products</span>
+                                        <span class="pay-item pay-select-move">Move to My Likes</span>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col l-5">
+                                    <div class="pay">
+                                        <span class="pay-item pay-select">Total: </span>
+                                        <span id="message" class="pay-item pay-prince">0</span>
+                                        <span class="pay-item pay-select">Select All</span>
+                                        <button class="pay-item pay-button">Check Out</button> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                 </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid ">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Shoppe mall</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Hướng dẫn bán hàng</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Thanh toán</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Shoppe Xu</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Vận chuyển</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Trả hàng và hoàn tiền</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Chính sách bảo hành</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Về Shopee</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Giới thiệu về Shoppe Việt Nam</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Điều khoản Shoppe</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Chính hãng</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Kênh người bán</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Flash sale</a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">Chương trình tiếp thị liên kết với Shoppe</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Thanh toán</h3>
+                        <ul class="footer__list footer__list-pay">
+                            <li class="footer__list-items">
+                                <img src="https://cf.shopee.vn/file/d4bbea4570b93bfd5fc652ca82a262a8" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/9263fa8c83628f5deff55e2a90758b06" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/a0a9062ebe19b45c1ae0506f16af5c16" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/38fd98e55806c3b2e4535c4e4a6c4c08" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/bc2a874caeee705449c164be385b796c" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/2c46b83d84111ddc32cfd3b5995d9281" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/0217f1d345587aa0a300e69e2195c492" alt="" class="footer__list-items-pay-img">
+                            </li>
+                        </ul>
+                        <h3 class="footer__heading">Đơn vị vận chuyển</h3>
+                        <ul class="footer__list footer__list-pay">
+                            <li class="footer__list-items">
+                                <img src="https://cf.shopee.vn/file/5e7282bd0f7ee0872fdb0bd1d40fbe9e" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/d10b0ec09f0322f9201a4f3daf378ed2" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/77bf96a871418fbc21cc63dd39fb5f15" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/59270fb2f3fbb7cbc92fca3877edde3f" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/957f4eec32b963115f952835c779cd2c" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/0d349e22ca8d4337d11c9b134cf9fe63" alt="" class="footer__list-items-pay-img">
+                                <img src="https://cf.shopee.vn/file/3900aefbf52b1c180ba66e5ec91190e5" alt="" class="footer__list-items-pay-img">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-items">
+                                <a href="https://www.facebook.com/phan.giathinh.96/" class="footer__list-items-link">
+                                    <i class="footer__list-items-icon ti-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">
+                                    <i class="footer__list-items-icon ti-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__list-items">
+                                <a href="" class="footer__list-items-link">
+                                    <i class="footer__list-items-icon ti-linkedin"></i>
+                                    LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng shoppe</h3>
+                        <div class="footer__download">
+                            <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/d91264e165ed6facc6178994d5afae79.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-app">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assect/css/img/google.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assect/css/img/appstore.png" alt="App Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer__copyright">Công ty TNHH Shopee</p>
+                    <div class="footer__license">
+                        <img src="./assect/css/img/logoCCDV.png" alt="" class="footer__license-img">
+                        <img src="./assect/css/img/logoCCDV.png" alt="" class="footer__license-img">
+                        <img src="./assect/css/img/logoCCDV.png" alt="" class="footer__license-img">
+                    </div>
+                    <p class="footer__copyright">© 2015 - Bản quyền thuộc về Công ty TNHH Shopee</p>
+                    <p class="footer__copyright">Website được tạo bởi 
+                        <a class="" href="https://www.facebook.com/phan.giathinh.96/">Gia Thịnh</a> theo sự hướng dẫn của anh 
+                        <a href="https://www.facebook.com/sondnf8">Sơn Đặng - F8</a> trong khóa học 
+                        <a href="https://fullstack.edu.vn/learning/html-css">HTML & CSS Từ Zero Đến Hero</a> 
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+<!-- Modal layout -->
+    <div class=" modal">
+        <div class="modal__overlay"></div>
+            <div class="modal__body">
+                <!-- Register form -->
+                 <div class="auth-form auth-form__pay">
+                    <div class="auth-form__containers">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">
+                                THANH TOÁN
+                            </h3>
+                            <span class="js-modal-close-addcart js-add auth-form__swith-btn">Thêm vào giỏ hàng</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-from__input" required  placeholder="Họ tên người nhận">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-from__input" required  placeholder="Số điện thoại người nhận">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-from__input" required  placeholder="Địa chỉ nhận hàng">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-from__input"  placeholder="Mã voucher của shop">
+                            </div>
+                            <div class="auth-form__total">
+                                <p class="auth-form__total-heading">
+                                    Tổng cộng (1 mặt hàng): 
+                                </p>
+                                <p class="auth-form__swith-btn">705.000đ</p>
+
+                            </div>
+                            <div class="auth-form__saved">
+                                <p class="auth__save-heading">
+                                    Tiết kiệm: 
+                                </p>
+                                <p class="auth-form__saved-btn">163.000đ</p>
+
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <input class="auth-form__policy-text-pay-input" id="auth-form__policy-text-pay-input" type="checkbox">
+                            <label for="auth-form__policy-text-pay-input" class="auth-form__policy-text auth-form__policy-text-pay"> Bằng việc thanh toán (Phương thức thanh toán mặc định là tiền mặt), bạn đã đồng ý với Shoppe về 
+                                <a href="" class="auth-form__policy-link">Điều khoản và dịch vụ</a> &
+                                <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                            </label>
+                        </div>
+                        <div class="auth-form__controls-btn">
+                            <button class="js-modal-close btn auth-form__controls-btn-back btn--normal ">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐẶT HÀNG </button>
+                        </div>
+                    </div>
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook  auth-form__socials-title-card btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-solid fa-credit-card"> </i>
+                            <span class="auth-form__socials-title">Thanh toán qua thẻ</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                            <span class="auth-form__socials-title">Phương thức khác</span>
+                            
+                        </a>
+                    </div>
+                </div>
+        </div>
+                
+    </div>
+    <div class="modal1">
+        <div class="modal__overlay"></div>
+            <div class="modal__body">
+                <div class="auth-form auth-form__add-cart">
+                    <div class="auth-form__containers  auth-form__add-cart">
+                        <h3 class="auth-form__heading-add">
+                            <i  class="auth-form__heading-icon fa-solid ti-check"></i>
+                            Đã thêm 1 sản phẩm vào giỏ hàng
+                        </h3>
+                        <div class="auth-form__controls-btn auth-form__controls-btn-add">
+                            <button class="js-modal-close-add btn auth-form__controls-btn-back btn--normal ">TRỞ LẠI</button>
+                            <button class="btn btn--primary">XEM</button>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+    </div>
+</div>
+<script>
+    var check = document.getElementById("my-checkbox");
+    var orderquantity = document.getElementById("orderquantity");
+    var message = document.getElementById("message");
+    var check1 = document.getElementById("my-checkbox1");
+    var orderquantity1 = document.getElementById("orderquantity1");
+
+    const changequantity = () =>{
+
+        if(check.checked && check1.checked){
+            message.textContent = `${499000*orderquantity.value + 299000*orderquantity1.value}`
+        }else if(check.checked && !check1.checked){
+            message.textContent = `${499000*orderquantity.value}`
+        }else if(!check.checked && check1.checked){
+            message.textContent = `${299000*orderquantity1.value}`
+        }else {
+            message.textContent = `0`
+        }
+    }
+</script>
+</body>
+</html>
